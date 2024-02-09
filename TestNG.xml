@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTestsSuite">
+    <test name="BaseTest">
+        <classes>
+            <class name="BaseTest"/>
+        </classes>
+    </test>
+    <test name="SearchTest">
+        <classes>
+            <class name="SearchTest"/>
+        </classes>
+    </test>
+    <test name="NavTest">
+        <classes>
+            <class name="NavTest"/>
+        </classes>
+    </test>
+    <test name="AddToCartTest">
+        <classes>
+            <class name="AddToCartTest"/>
+        </classes>
+    </test>
+    <test name="WishListTest">
+        <classes>
+            <class name="WishListTest"/>
+        </classes>
+    </test>
+</suite>
