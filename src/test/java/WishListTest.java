@@ -13,18 +13,13 @@ import org.testng.annotations.Test;
 
 
 public class WishListTest {
-    //-------------------Global Variables-----------------------------------
-//Declare a Webdriver variable
     public WebDriver driver;
-    //Declare a test URL variable
     public String mytestURL = "https://www.links.hr/hr/";
     //----------------------Test Setup-----------------------------------
     @BeforeMethod
     public void setupTest() {
         System.setProperty("webdriver.chrome.driver", "C:\\Student\\chromedriver.exe");
-//Create a new ChromeDriver
         driver = new ChromeDriver();
-//Go to www.swtestacademy.com
         driver.navigate().to(mytestURL);
     }
 
@@ -39,7 +34,6 @@ public class WishListTest {
 
 
 
-        //novo
         WebDriverWait wait = new WebDriverWait(driver, 10);
 
         WebElement productImage = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@alt='Punjač za laptop AVACOM, 90W, univerzalni, crni']")));

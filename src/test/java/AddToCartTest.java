@@ -73,7 +73,6 @@ public class AddToCartTest {
 
     @AfterMethod
     public void teardownTest() {
-//Close browser and end the session
         driver.quit();
     }
 }

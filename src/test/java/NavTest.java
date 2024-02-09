@@ -12,18 +12,13 @@ import org.testng.annotations.Test;
 
 
 public class NavTest {
-    //-------------------Global Variables-----------------------------------
-//Declare a Webdriver variable
+
     public WebDriver driver;
-    //Declare a test URL variable
     public String mytestURL = "https://www.links.hr/hr/";
-    //----------------------Test Setup-----------------------------------
     @BeforeMethod
     public void setupTest() {
         System.setProperty("webdriver.chrome.driver", "C:\\Student\\chromedriver.exe");
-//Create a new ChromeDriver
         driver = new ChromeDriver();
-//Go to www.swtestacademy.com
         driver.navigate().to(mytestURL);
     }
 
@@ -46,10 +41,8 @@ public class NavTest {
 
 
     }
-    //---------------Test TearDown-----------------------------------
     @AfterMethod
     public void teardownTest() {
-//Close browser and end the session
         driver.quit();
     }
 }

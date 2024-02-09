@@ -54,7 +54,6 @@ public class SearchTest  {
     }
     @AfterMethod
     public void teardownTest() {
-//Close browser and end the session
         driver.quit();
     }
 }
