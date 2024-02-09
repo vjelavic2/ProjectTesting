@@ -5,7 +5,7 @@ Implementirani su sljedeći testni slučajevi:
 4. AddToCartTest: Ovaj test slučaj provjerava funkcionalnost dodavanja proizvoda u košaricu unutar aplikacije. Početno, test otvara preglednik i pretražuje unutar aplikacije koristeći ključnu riječ "punjac". Nakon pronalaska rezultata pretrage, test odabire prvi pronađeni proizvod i dodaje ga u košaricu. Zatim, test provjerava je li cijena odabranog proizvoda u košarici jednaka očekivanoj cijeni. U slučaju da je cijena proizvoda u košarici jednaka traženoj cijeni, test se smatra uspješnim.
 5. WishListTest: Ovaj test slučaj provjerava funkcionalnost dodavanja proizvoda na listu želja unutar aplikacije. Početno, test otvara preglednik i pretražuje unutar aplikacije koristeći ključnu riječ "punjac". Nakon pronalaska rezultata pretrage, test odabire prvi pronađeni proizvod i dodaje ga na listu želja. Zatim, test provjerava je li cijena odabranog proizvoda u košarici jednaka očekivanoj cijeni. U slučaju da je cijena proizvoda u košarici jednaka traženoj cijeni, test se smatra uspješnim.
 
-Dodatno: TestNG.xml navodi redoslijed obavljanja testova.
+Dodatno: TestNG.xml navode konfiguracije testova.
 
 
 
